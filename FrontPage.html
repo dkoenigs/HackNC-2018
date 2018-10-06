@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>Space Clicker</title>
+    <style>
+        body{  background-image: url("https://i.redd.it/y7a87jf3qsj11.jpg");} 
+    </style>
+</head>
+
+<body>
+    
+    
+    <script type="text/javascript">
+    var clicks = 0;
+    function onClick() {
+        clicks += 1;
+        document.getElementById("clicks").innerHTML = clicks;
+    };
+    </script>
+    <button type="button" onClick="onClick()">Click me</button>
+    <p>Clicks: <a id="clicks">0</a></p>
+
+</body></html>
