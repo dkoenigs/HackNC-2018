@@ -1,31 +1,66 @@
 body{
             width: 100%;
-            height: 100%;
+            height: 90%;
             max-height: 100%;
-            margin: 0;
-            padding: 0;
-            background-image: url("https://i.redd.it/y7a87jf3qsj11.jpg");
+            background-image: url("https://i.redd.it/hjztyhfq6mq11.jpg");
             background-size:100% 100%;
             background-repeat: no-repeat;
 }
-h1  {
-            text-align:center; vertical-align: middle; 
-            height: 100%;
-            padding: 20px;
+h2  {
+            text-align:center;
+            vertical-align: middle; 
     }
 button{
             position: absolute;
             top: 40%;
             left: 50%;
-            margin-left:auto;
-            margin-right:auto;
             display:block;
             transform:translateX(-50%);
+            border: 2px solid #000000;
+            height: 100px;
+            width: 100px;
+            border-radius: 50px;
 }
 p {
             color:aliceblue;
+            text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
             position: absolute;
             top: 20%;
             left: 50%;
+            display:block;
             transform:translateX(-50%);
 }
+
+    #left-paddle {
+		background-color: green;
+		left: 10px;
+	}
+	#right-paddle {
+		background-color: blue;
+		right: 10px;
+	}
+	.paddle {
+		top: 0;
+		height: 200px;
+		width: 10px;
+		position: absolute;
+	}
+	.ball {
+		width: 20px;
+		height: 20px;
+		background-color: red;
+		border-radius: 10px;
+		position: absolute;
+		left: 50px;
+		top: 50px;
+	}
+	.score {
+		position: absolute;
+		top: 0;
+	}
+	#left-score {
+		left: 10%;
+	}
+	#right-score {
+		right: 10%;
+	}
