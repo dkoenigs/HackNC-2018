@@ -121,11 +121,20 @@ def main(longString):
     inputs[0] = float(inputs[0])
 
     final = decision(inputs[0], inputs[1], inputs[2], inputs[3], inputs[4])
+    print("")
+    print("_________________________________________________")
+    print("The different expected download categories are: ")
+    print("0+, 1+, 5+, 10+, 50+, 100+, 500+, ")
+    print("1000+, 5000+, 10000+, 50000+, 100000+, 500000+")
+    print("1000000+, 5000000+, 10000000+, 50000000+")
+    print("100000000+, and 500000000+")
+    print("_________________________________________________")
     return final
 
    
 final = input("What are your parameters: ")
-print(main(final))
+
+print("Your expected number of downloads is: " + main(final))
 
 
 # plzRun = myPythonClass()
