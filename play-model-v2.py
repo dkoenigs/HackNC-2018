@@ -124,8 +124,7 @@ def main(longString):
     return final
 
    
-text = input("What is your file? ")
-final = open(text, "w") 
+final = input("What are your parameters: ")
 print(main(final))
 
 
