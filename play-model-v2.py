@@ -116,7 +116,7 @@ def decision(size, cat, type, cr, genre):
         return result[0]
 
     
-def main(self, longString):
+def main(longString):
     inputs = longString.split(',')
     inputs[0] = float(inputs[0])
 
@@ -124,7 +124,9 @@ def main(self, longString):
     return final
 
    
-    
+text = input("What is your file? ")
+final = open(text, "w") 
+print(main(final))
 
 
 # plzRun = myPythonClass()
